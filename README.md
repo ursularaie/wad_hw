@@ -1,17 +1,23 @@
-## Project Information
-Web Applications Development course homeworks repo.
+# wad_hw
 
 * **Homework 1:** static webpage, HTML and CSS
 * **Homework 2:** dynamic additions, JavaScript and JSON integration, endpoint hosting and local, page style improved
 * **Homework 3:** Vue integration, Vuex store functionality implementation, password controls.
 
----
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-## Team Y
-Eleonoora Kõrge, Ursula Raie, Tuuli-Mia Haas
+### Compiles and minifies for production
+```
+npm run build
+```
 
----
+### Lints and fixes files
+```
+npm run lint
+```
 
-## Usage
-* Fork the repo.
-* Open it in a capable IDE or by file.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

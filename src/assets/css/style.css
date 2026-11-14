@@ -365,7 +365,7 @@ a.forgot-link{
 }
 
 .home-page {
-    background-image: url('../../images/homepage.svg');
+    background-image: url('../images/homepage.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -373,7 +373,7 @@ a.forgot-link{
 }
 
 .login-page{
-    background-image: url('../../images/loginpage.svg');
+    background-image: url('../images/loginpage.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,7 +381,7 @@ a.forgot-link{
 }
 
 .post-page{
-    background-image: url('../../images/postpage.svg');
+    background-image: url('../images/postpage.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -400,4 +400,15 @@ a.forgot-link{
 /* Header color for Login page */
 .login-page .header {
     background-color: #f3eca4;
+}
+
+html, body, #app {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#app > div, main.container {
+    flex: 1;
 }
