@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--looks okay with width 238px after that not-->
+
+<head>
+    <meta charset="UTF-8">
+    <!--took away: <meta name="viewport" content="width=device-width, initial-scale=1.0"> because it messed with the phone layout-->
+    <title>Home</title>
+    <link href="res\css\style.css" rel="stylesheet" type="text/css">
+    <script src="src/js/script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- credit for favion: https://www.flaticon.com/free-icons/marketing-->
+</head>
+
+<body class="home-page">
+    <header class="header" id="index_header">
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li id="button_separator">|</li>
+                <li><a href="addPost.html" class="nav-link">addPost</a></li>
+            </ul>
+        </nav>
+        <div class="profile-container">
+            <img src="images/account.png" alt="profile" class="avatar" id="avatar-button">
+            <!--credit for vector: https://www.flaticon.com/free-icons/user-->
+            <div id="dropdown-menu" class="dropdown-menu hidden">
+                <p class="dropdown-name">John Doe</p>
+                <p class="dropdown-email">john.doe@ut.ee</p>
+                <a href="login.html" class="dropdown-logout">Logout</a>
+            </div>
+        </div>
+        
+    </header>
+    <main id="main_content">
+        <div id="rightside_column"></div>
+        <div id="middle_column">
+            <div id="posts"></div>
+        </div>
+        <div id="leftside_column"></div>
+    </main>
+    <footer id="footer">
+        <p>Footer</p>
+    </footer>
+    <template class="post_template">
+        <article class="post">
+            <div class="post_header">
+                <img src="" alt="profile picture" class="post_profile_pic">
+                <p class="post_date"></p>
+            </div>
+            <div class="post_content">
+                <div class="post_pic_div">
+                            <img src="" alt="" class="post_pic">
+                        </div>
+                <p class="post_text"></p>
+            </div>
+            <div class="username"></div>
+            <div class="like_button_div">
+                <button class="like_button"><img src="images/thumbs-up.png" alt="like button" class="like_icon"></button> <!--no need for this to be taken from json becuase it's the same everywhere-->
+                <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
+            </div>
+        </article>
+    </template>
+</body>
+
+</html>
+
+<!--Credits for all post pictures: -->
+<!--credit for pic: https://www.flaticon.com/free-icons/moon-->
+<!--credit for image: https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fiq.opengenus.org%2Fbest-programming-memes-of-2019%2F&ved=0CBcQjRxqGAoTCOjQz47-n5cDFQAAAAAdAAAAABCgBA&opi=89978449-->
+<!--credit for image: https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Felbruno.com%2F2016%2F05%2F15%2Fhumor-css-is-awesome%2F&ved=0CBcQjRxqGAoTCOjQz47-n5cDFQAAAAAdAAAAABDcAQ&opi=89978449-->
+<!--for json validation: https://jsonlint.com/-->

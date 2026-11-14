@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Post</title>
+    <link rel="stylesheet" href="res\css\style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body class="post-page">
+
+<!-- Navigation bar -->
+<header class="header">
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+        </ul>
+    </nav>
+    <img class="avatar" src="images/account.png" alt="User profile">
+</header>
+
+<!-- Main form for creating a post -->
+<main class="container">
+    <section class="form-card">
+        <!-- Redirects to index.html when submitting form -->
+        <form id="postForm" action="index.html" method="get">
+            <div class="form-row">
+                <label for="postBody">Post body</label>
+                <textarea id="postBody" placeholder="textarea"></textarea>
+            </div>
+
+            <div class="form-row">
+                <label>Select file</label>
+                <div class="file-input-wrapper">
+                    <button type="button" class="file-btn">Choose File</button>
+                    <input type="file" id="fileInput" accept="image/*">
+                </div>
+            </div>
+
+            <button type="submit" class="submit-button">Create post</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
