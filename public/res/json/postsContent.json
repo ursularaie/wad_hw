@@ -1,82 +1,82 @@
 {
     "Posts": [
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "myth-central",
             "postDate": "2026-06-15",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/full-moon.png",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/full-moon.png",
             "picAlt": "full moon",
             "postText": "Did you know that to cure a werewolf a loved one has to chuck their clothes at them and call their human name? Try it out next time you have such a problem!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "notAScam",
             "postDate": "2000-06-15",
             "postText": "Tired of prowling the internet for music sheets? Check out our site! All our music sheets are complete, there are no mistakes and are humanely possible. Check out our site now: <a href=\"index.html\">Our Site</a>"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "catsRlife",
             "postDate": "2026-03-15",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/cat.jpg",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/cat.jpg",
             "picAlt": "cat",
             "postText": "Found my cat like this!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "dunno",
             "postDate": "2026-03-25",
             "postText": "Saw a video where they were calculating the color of magic in D&D! It was really interesting!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "Roosi",
             "postDate": "2026-03-15",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/mug.jpg",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/mug.jpg",
             "picAlt": "mug",
             "postText": "Got a new mug today!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "DuolingoFan",
             "postDate": "2026-03-31",
             "postText": "¡Hola! ¿Quieres ser mi amigo?"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "AnimalLover03",
             "postDate": "2026-03-17",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/stompy.png",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/stompy.png",
             "picAlt": "Stompy the Emu",
             "postText": "Support the awesome work of Alveus Sanctuary!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "huh?",
             "postDate": "2026-03-15",
             "postText": "If I shenan once, I shall shenanigan."
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "AnimalLover03",
             "postDate": "2026-03-15",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/winnie.png",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/winnie.png",
             "picAlt": "Winnie the Moo",
             "postText": "Another Alveus plug!"
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "Roosi",
             "postDate": "2026-03-15",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/roosi.jpg",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/roosi.jpg",
             "picAlt": "Roosi",
             "postText": "this is the face of someone who knows no wrong. and is posing for a picture."
         },
         {
-            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/account.png",
             "accountName": "Hirved2",
             "postDate": "2026-10-30",
-            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/deer.jpg",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_hw/refs/heads/main/src/assets/images/deer.jpg",
             "picAlt": "Deer in garden"
         }
     ]
