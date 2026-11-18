@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: "IBM Plex Serif", serif, Verdana, Geneva, Tahoma, sans-serif; /* Lisasin kaks esimest fonti juurde, tundusid, et võik sobida stiiliga */
+    font-family: "IBM Plex Serif", serif, Verdana, Geneva, Tahoma, sans-serif;
+    /* Lisasin kaks esimest fonti juurde, tundusid, et võik sobida stiiliga */
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 }
 
 .nav-bar {
-    display: flex;              
+    display: flex;
     justify-content: left;
 }
 
@@ -56,21 +57,23 @@ body {
     color: #fff;
 }
 
-.container {                  
-    display: flex;              
+.container {
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 50px 20px;
 }
 
 /* specific index.html stuff starts here and don't think that they can be added with anything else*/
-#main_content { /* index.html has different layout which is why it has id and is separate */
+#main_content {
+    /* index.html has different layout which is why it has id and is separate */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#rightside_column, #leftside_column {
+#rightside_column,
+#leftside_column {
     width: 350px;
     background-color: transparent;
     border-radius: 5px;
@@ -94,7 +97,7 @@ body {
 }
 
 /* RULE: General Sibling selector — hover changes opacity */
-.post:hover ~ .post {
+.post:hover~.post {
     opacity: 0.6;
 }
 
@@ -102,7 +105,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-        align-items: center;
+    align-items: center;
 }
 
 .post_profile_pic {
@@ -123,13 +126,14 @@ body {
 }
 
 /* RULE: Adjacent Sibling Selector */
-.post_pic_div + p {
+.post_pic_div+p {
     margin-top: 12px;
 }
 
 .post_pic {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 #posts .username {
@@ -157,13 +161,13 @@ body {
 }
 
 /* RULE: Child Selector */
-.like_button > .like_icon {
+.like_button>.like_icon {
     width: 100%;
     height: 100%;
 }
 
 /* RULE: Child Selector + pseudo-class */
-.like_button > .like_icon:active {
+.like_button>.like_icon:active {
     filter: brightness(0) invert(1);
 }
 
@@ -174,6 +178,7 @@ body {
     background-color: #d0dee6;
     border-radius: 5px;
 }
+
 /* specific index.html stuff stops here */
 
 /* Post form starts here*/
@@ -186,7 +191,7 @@ body {
 }
 
 .form-row {
-    display: flex;             
+    display: flex;
     align-items: flex-start;
     gap: 10px;
     margin-bottom: 30px;
@@ -250,11 +255,12 @@ textarea {
 .submit-button:hover {
     background: #163a6b;
 }
+
 /* Post form ends here */
 
 
 /* Login card starts here */
-.login-card{
+.login-card {
     background: #d1d1d1;
     border-radius: 10px;
     width: 100%;
@@ -265,26 +271,27 @@ textarea {
 }
 
 /* RULE: Child Selector */
-.login-card > h2{
+.login-card>h2 {
     font-weight: bold;
     margin: 0 0 20px 0;
     font-size: 18px;
 }
 
 /* RULE: Descendant Selector */
-.login-card p{
+.login-card p {
     margin: 6px 0;
 }
 
 /* RULE: Child Selector */
-.login-card > h3{
+.login-card>h3 {
     font-weight: normal;
     margin: 6px 0 16px 0;
     font-size: 18px;
 }
 
 /*Blue links*/
-a.account-link, a.forgot-link{
+a.account-link,
+a.forgot-link {
     color: #0fb2ed;
     text-decoration: none;
     display: inline-block;
@@ -292,11 +299,11 @@ a.account-link, a.forgot-link{
     font-size: 18px;
 }
 
-a.forgot-link{
-    margin-top:  18px;
+a.forgot-link {
+    margin-top: 18px;
 }
 
-.login-form{
+.login-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,8 +337,9 @@ a.forgot-link{
 .dropdown-menu {
     position: absolute;
     right: 0;
-    top: 60px; /* Positioned directly below the header avatar */
-    background-color: #d1d1d1; 
+    top: 60px;
+    /* Positioned directly below the header avatar */
+    background-color: #d1d1d1;
     border-radius: 5px;
     padding: 14px 18px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -368,7 +376,7 @@ a.forgot-link{
     background-attachment: fixed;
 }
 
-.login-page{
+.login-page {
     background-image: url('../images/loginpage.svg');
     background-size: cover;
     background-position: center;
@@ -376,7 +384,7 @@ a.forgot-link{
     background-attachment: fixed;
 }
 
-.post-page{
+.post-page {
     background-image: url('../images/postpage.svg');
     background-size: cover;
     background-position: center;
@@ -385,12 +393,14 @@ a.forgot-link{
 }
 
 .home-page .header {
-    background-color: #99b2bd; /* Replace with your desired color */
+    background-color: #99b2bd;
+    /* Replace with your desired color */
 }
 
 /* Header color for Add Post page */
 .post-page .header {
-    background-color: #6a5454; /* Replace with your desired color */
+    background-color: #6a5454;
+    /* Replace with your desired color */
 }
 
 /* Header color for Login page */
@@ -398,13 +408,16 @@ a.forgot-link{
     background-color: #f3eca4;
 }
 
-html, body, #app {
+html,
+body,
+#app {
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
-#app > div, main.container {
+#app>div,
+main.container {
     flex: 1;
 }
