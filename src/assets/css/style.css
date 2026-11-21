@@ -6,17 +6,15 @@
 
 body {
     background: #fbfbfb;
-    color: #222;
+    color: #413131;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #9a9a9a;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-bottom: 10px;
 }
 
 #button_separator {
@@ -46,15 +44,16 @@ body {
     padding: 8px 10px;
     border-radius: 5px;
     text-decoration: none;
-    color: #222;
-    font-size: 16px;
+    color: #5b4545;
+    font-size: 18px;
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
 /* RULE: Pseudo-class — hover changes background color */
 .nav-link:hover {
-    background-color: #1e4e8c;
-    color: #fff;
+    background-color: #bbc9cf;
+    color: #5b4545;
+    font-weight: bold;
 }
 
 .container {
@@ -94,6 +93,7 @@ body {
     background-color: rgb(233, 237, 240);
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
+    border: 2px solid #99b2bd;
 }
 
 /* RULE: General Sibling selector — hover changes opacity */
@@ -106,6 +106,10 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #efebd0;
+    padding: 4px 8px;
+    border-radius: 8px 8px 0 0;
+    
 }
 
 .post_profile_pic {
@@ -138,6 +142,7 @@ body {
 
 #posts .username {
     margin-bottom: 10px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -242,7 +247,7 @@ textarea {
 .submit-button {
     display: block;
     margin: 10px auto 0;
-    background: #1e4e8c;
+    background: #5b4545;
     color: #fff;
     border: none;
     padding: 9px 22px;
@@ -253,7 +258,9 @@ textarea {
 
 /* RULE: Pseudo-class */
 .submit-button:hover {
-    background: #163a6b;
+    background-color: #e7f1f6;
+    color: #5b4545;
+    font-weight: bold;
 }
 
 /* Post form ends here */
@@ -261,12 +268,13 @@ textarea {
 
 /* Login card starts here */
 .login-card {
-    background: #d1d1d1;
+    background: #c8d6de;
     border-radius: 10px;
+    border: 3px solid #755c5c;
     width: 100%;
-    max-width: 320px;
-    padding: 24px 20px;
-    font-size: 18px;
+    max-width: 400px;
+    padding: 30px 26px;
+    font-size: 28px;
     text-align: center;
 }
 
@@ -274,7 +282,7 @@ textarea {
 .login-card>h2 {
     font-weight: bold;
     margin: 0 0 20px 0;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 /* RULE: Descendant Selector */
@@ -286,7 +294,7 @@ textarea {
 .login-card>h3 {
     font-weight: normal;
     margin: 6px 0 16px 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /*Blue links*/
@@ -312,11 +320,11 @@ a.forgot-link {
 
 .login-form input[type="email"],
 .login-form input[type="password"] {
-    width: 60%;
+    width: 70%;
     padding: 8px;
     border: none;
     border-radius: 0;
-    font-size: 16px;
+    font-size: 18px;
     outline: none;
     background-color: #ffffff;
 }
@@ -339,7 +347,7 @@ a.forgot-link {
     right: 0;
     top: 60px;
     /* Positioned directly below the header avatar */
-    background-color: #d1d1d1;
+    background-color: #e7f1f6;
     border-radius: 5px;
     padding: 14px 18px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -363,7 +371,7 @@ a.forgot-link {
 .dropdown-logout {
     font-size: 15px;
     font-weight: normal;
-    color: #222;
+    color: #5b4545;
     margin: 0;
     text-decoration: none;
 }
@@ -394,18 +402,20 @@ a.forgot-link {
 
 .home-page .header {
     background-color: #99b2bd;
-    /* Replace with your desired color */
+    border-bottom: 10px solid #5b4545;
 }
 
 /* Header color for Add Post page */
 .post-page .header {
     background-color: #6a5454;
-    /* Replace with your desired color */
+    border-bottom: 10px solid #163a6b;
+    
 }
 
 /* Header color for Login page */
 .login-page .header {
-    background-color: #f3eca4;
+    background-color: #f3eac1;
+    border-bottom: 10px solid #ebe1b4;
 }
 
 html,
