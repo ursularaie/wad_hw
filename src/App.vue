@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class = "pageClass">
     <Header />
     <router-view />
     <Footer />
@@ -15,6 +15,13 @@ export default {
   components: {
     Header,
     Footer
+  },
+  computed: {
+    pageClass() {
+      if (this.$route.name === 'Main') return 'home-page'
+      if (this.$route.name === 'Signup') return 'login-page'
+      return ''
+    }
   }
 }
 </script>
