@@ -2,7 +2,7 @@
   <main class="container home-page">
     <div id="main_content">
       <div id="leftside_column"></div>
-      
+
       <div class="center-column">
         <div id="posts">
           <div class="post" v-for="(post, index) in posts" :key="index">
@@ -20,7 +20,10 @@
                 <img src="../assets/images/thumbs-up.png" alt="Like" class="like_icon" />
               </button>
             </div>
-            <span>Likes: {{ post.likes || 0 }}</span>
+            <div class="post_footer">
+              <span>Likes: {{ post.likes || 0 }}</span>
+              <p>{{ post.postDate }}</p>
+            </div>
           </div>
         </div>
 
@@ -31,7 +34,7 @@
 
       <div id="rightside_column"></div>
     </div>
-  </main>  
+  </main>
 </template>
 
 <script>
